@@ -9,7 +9,6 @@ using UnityEngine.UI;
 
 public class AnaMenu_Manager : MonoBehaviour
 {
-    //d
     BellekYonetim _BellekYonetim = new BellekYonetim();
     VeriYonetimi _VeriYonetimi = new VeriYonetimi();
     ReklamYonetim _ReklamYonetimi = new ReklamYonetim();
