@@ -419,6 +419,8 @@ namespace Ayberk
         private InterstitialAd insterstitial;
 
         private RewardedAd _RewardedAd;
+        
+        private BannerView bannerView;
 
         //------ GEÇİŞ REKLAMI
         public void RequestInterstitial()
@@ -515,6 +517,51 @@ namespace Ayberk
             {
                 _RewardedAd.Show();
             }
+        }
+        
+        public void RequestBanner()
+        {
+            string AdUnitId;
+
+#if UNITY_ANDROID
+            AdUnitId = "ca-app-pub-3940256099942544/6300978111";
+#elif UNITY_IPHONE
+        AdUnitId = "ca-app-pub-3940256099942544/2934735716";
+#else
+        AdUnitId = "unexpected_platform";
+#endif
+
+            bannerView = new BannerView(AdUnitId, AdSize.Banner, AdPosition.Bottom);
+            AdRequest request = new AdRequest.Builder().Build();
+            bannerView.LoadAd(request);
+
+            bannerView.OnAdLoaded += BannerYuklendi;
+            bannerView.OnAdClosed += BannerKapatildi;
+        }
+
+        private void BannerYuklendi(object sender, EventArgs e)
+        {
+            Debug.Log("BANNER YÜKLENDİ");
+        }
+
+        private void BannerKapatildi(object sender, EventArgs e)
+        {
+            Debug.Log("BANNER KAPATILDI");
+        }
+
+        public void BannerGoster()
+        {
+            bannerView?.Show();
+        }
+
+        public void BannerGizle()
+        {
+            bannerView?.Hide();
+        }
+
+        public void BannerYokEt()
+        {
+            bannerView?.Destroy();
         }
     }
 }

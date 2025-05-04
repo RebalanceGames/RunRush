@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using Ayberk;
 using TMPro;
 using UnityEngine.UI;
-
+using GoogleMobileAds.Api;
 public class AnaMenu_Manager : MonoBehaviour
 {
     BellekYonetim _BellekYonetim = new BellekYonetim();
@@ -30,6 +30,10 @@ public class AnaMenu_Manager : MonoBehaviour
 
     private void Start()
     {
+        MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
+
+        _ReklamYonetimi.RequestBanner();
+        
         _BellekYonetim.KontrolEtveTanimla();
         _VeriYonetimi.ilkkurulumDosyaOlusturma(_Varsayilan_ItemBilgileri, _Varsayilan_DilVerileri);
 

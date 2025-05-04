@@ -40,6 +40,8 @@ public class Market_Manager : MonoBehaviour, IStoreListener
     private void Start()
     {
         _ReklamYonetimi.RequestRewardedAd();
+        
+        _ReklamYonetimi.RequestBanner();
 
         _VeriYonetimi.Dil_Load();
         _DilOkunanVeriler = _VeriYonetimi.DilVerileriListeyiAktar();

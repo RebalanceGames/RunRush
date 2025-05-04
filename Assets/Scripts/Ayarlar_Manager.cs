@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Ayberk;
 using TMPro;
-
+using GoogleMobileAds.Api;
 public class Ayarlar_Manager : MonoBehaviour
 {
     public AudioSource ButonSes;
@@ -15,6 +15,7 @@ public class Ayarlar_Manager : MonoBehaviour
     
     BellekYonetim _BellekYonetim = new BellekYonetim();
     VeriYonetimi _VeriYonetimi = new VeriYonetimi();
+    ReklamYonetim _ReklamYonetimi = new ReklamYonetim();
     
     public List<DilVerileriAnaObje> _DilVerileriAnaObje = new List<DilVerileriAnaObje>();
     List<DilVerileriAnaObje> _DilOkunanVeriler = new List<DilVerileriAnaObje>();
@@ -26,6 +27,15 @@ public class Ayarlar_Manager : MonoBehaviour
     private int AktifDilIndex;
     private void Start()
     {
+        MobileAds.Initialize(initStatus =>
+        {
+            Debug.Log("AdMob initialized.");
+        });
+        
+        MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
+
+        _ReklamYonetimi.RequestBanner();
+        
         ButonSes.volume = _BellekYonetim.VeriOku_f("MenuSes");
         MenuSes.value = _BellekYonetim.VeriOku_f("MenuSes");
         MenuFx.value = _BellekYonetim.VeriOku_f("MenuFx");

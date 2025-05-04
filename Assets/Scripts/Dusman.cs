@@ -22,7 +22,7 @@ public class Dusman : MonoBehaviour
 
     private void Start()
     {
-        boss.hp = 5;
+        boss.hp = 15;
     }
     public void AnimasyonTetikle()
     {

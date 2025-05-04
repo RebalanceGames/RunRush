@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Ayberk;
 using TMPro;
-
+using GoogleMobileAds.Api;
 public class LevelManager : MonoBehaviour
 {
     public Button[] Butonlar;
@@ -14,6 +14,7 @@ public class LevelManager : MonoBehaviour
 
     BellekYonetim _BellekYonetim = new BellekYonetim();
     VeriYonetimi _VeriYonetimi = new VeriYonetimi();
+    ReklamYonetim _ReklamYonetimi = new ReklamYonetim();
     public AudioSource ButonSes;
 
     public List<DilVerileriAnaObje> _DilVerileriAnaObje = new List<DilVerileriAnaObje>();
@@ -29,6 +30,15 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        MobileAds.Initialize(initStatus =>
+        {
+            Debug.Log("AdMob initialized.");
+        });
+        
+        MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
+
+        _ReklamYonetimi.RequestBanner();
+        
         _VeriYonetimi.Dil_Load();
         _DilOkunanVeriler = _VeriYonetimi.DilVerileriListeyiAktar();
 

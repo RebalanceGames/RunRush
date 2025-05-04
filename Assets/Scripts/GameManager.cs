@@ -42,9 +42,6 @@ public class GameManager : MonoBehaviour
 
     [Header("GENEL VERİLER")] public AudioSource[] Sesler;
 
-    //public AudioSource OyunSesi;
-    //public AudioSource ButonSes;
-
     public Button[] genelButonlar;
     public GameObject[] islemPanelleri;
     public Slider OyunSesiAyar;
@@ -78,10 +75,12 @@ public class GameManager : MonoBehaviour
     {
         DynamicGI.UpdateEnvironment();
 
-        //MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
+        MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
 
-        //_ReklamYonetimi.RequestInterstitial(); 
-        //_ReklamYonetimi.RequestRewardedAd();
+        _ReklamYonetimi.RequestInterstitial(); 
+        _ReklamYonetimi.RequestRewardedAd();
+
+        _ReklamYonetimi.RequestBanner();
 
         AnlikKarakterSayisi = 1;
 
