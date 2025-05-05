@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f79b578f-5b3e-48e7-8f94-aff768d118f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/ArkaPlan 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/ArkaPlan 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/ArkaPlan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/ArkaPlan.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeller/Material/Item/sapka3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/Material/Item/sapka3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeller/YapayZekaSapkalar/Vikings/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/YapayZekaSapkalar/Vikings/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AnaMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AnaMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunRush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunRush/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_dusman.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_dusman.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leveller/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leveller/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ozellestir.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ozellestir.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnaMenu_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnaMenu_Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ayarlar_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ayarlar_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Alt_karakter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Alt_karakter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dusman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dusman.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Kutuphane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Kutuphane.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Market_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Market_Manager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,29 +26,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2we5WUsBtokCej7QI52p33a4IQD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.61f1\Editor\Unity.exe" />
@@ -112,6 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746389233029</updated>
       <workItem from="1746389234349" duration="1022000" />
+      <workItem from="1746458995105" duration="1914000" />
     </task>
     <servers />
   </component>

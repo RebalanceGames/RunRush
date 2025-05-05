@@ -20,9 +20,12 @@ public class Dusman : MonoBehaviour
     private bool Saldiri_Basladimi;
     public bool isBoss;
 
+    private float gecenzaman = 0.00f;
+    private float beklemesüresi = 1f;
+
     private void Start()
     {
-        boss.hp = 15;
+        boss.hp = 10;
     }
     public void AnimasyonTetikle()
     {
@@ -51,7 +54,12 @@ public class Dusman : MonoBehaviour
         }
         else if(other.CompareTag("AltKarakterler") && isBoss)
         {
-            boss.hp--;
+
+            if (Time.time > gecenzaman)
+            {
+                boss.hp--;
+                gecenzaman = Time.time + beklemesüresi;
+            }
 
             if (boss.hp <= 0)
             {

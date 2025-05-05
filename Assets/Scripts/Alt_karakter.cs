@@ -6,6 +6,9 @@ public class Alt_karakter : MonoBehaviour
     private NavMeshAgent _Navmesh;
     public GameManager _GameManager;
     public GameObject Target;
+    
+    private float gecenzaman = 0.00f;
+    private float beklemesüresi = 1f;
 
     void Start()
     {
@@ -54,8 +57,12 @@ public class Alt_karakter : MonoBehaviour
             var col = gameObject.GetComponent<BoxCollider>();
             if (col != null) col.enabled = false;
 
-            _GameManager.YokolmaEfektiOlustur(PozisyonVer(), true, false, false);
-            gameObject.SetActive(false);
+            if (Time.time > gecenzaman)
+            {
+                _GameManager.YokolmaEfektiOlustur(PozisyonVer(), true, false, false);
+                gameObject.SetActive(false);
+                gecenzaman = Time.time + beklemesüresi;
+            }
         }
         else if (other.CompareTag("BosKarakter"))
         {
