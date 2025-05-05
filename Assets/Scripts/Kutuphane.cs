@@ -9,8 +9,7 @@ namespace Ayberk
 {
     public class Matematiksel_islemler
     {
-        public void Carpma(int GelenSayi, List<GameObject> Karakterler, Transform Pozisyon,
-            List<GameObject> OlusturmaEfektleri)
+        public void Carpma(int GelenSayi, List<GameObject> Karakterler, Transform Pozisyon, List<GameObject> OlusturmaEfektleri)
         {
             int DonguSayisi = (GameManager.AnlikKarakterSayisi * GelenSayi) - GameManager.AnlikKarakterSayisi;
             int sayi = 0;
@@ -275,7 +274,7 @@ namespace Ayberk
         {
             if (!PlayerPrefs.HasKey("SonLevel"))
             {
-                PlayerPrefs.SetInt("SonLevel", 5);
+                PlayerPrefs.SetInt("SonLevel", 6);
                 PlayerPrefs.SetInt("Puan", 100);
                 PlayerPrefs.SetInt("Elmas", 0);
 
@@ -290,6 +289,12 @@ namespace Ayberk
                 PlayerPrefs.SetString("Dil", "TR");
 
                 PlayerPrefs.SetInt("GecisReklamisayisi", 1);
+                
+                // Ozellikler
+                
+                PlayerPrefs.SetInt("UpgradeCharacter", 0);
+                PlayerPrefs.SetInt("UpgradePuan", 0);
+                PlayerPrefs.SetInt("UpgradeElmas", 0);
             }
         }
     }

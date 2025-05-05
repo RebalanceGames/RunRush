@@ -21,7 +21,7 @@ public class Dusman : MonoBehaviour
     public bool isBoss;
 
     private float gecenzaman = 0.00f;
-    private float beklemesüresi = 1f;
+    private float beklemesüresi = 0.6f;
 
     private void Start()
     {

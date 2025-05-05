@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     public List<GameObject> DusmanlarKontrol;
     public int KacDusmanOlsun;
     public int KacBossOlsun;
-    public GameObject _AnaKarakter;
     public bool OyunBittimi;
     public bool SonaGeldikmi;
 
@@ -100,6 +99,17 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        for (int i = 0; i < _BellekYonetim.VeriOku_i("UpgradeCharacter") && i < Karakterler.Count; i++)
+        {
+            if (Karakterler[i] != null)
+            {
+                Vector3 yeniPoz = new Vector3(Karakterler[i].transform.position.x, .23f, Karakterler[i].transform.position.z);
+                Karakterler[i].transform.position = yeniPoz;
+                AnlikKarakterSayisi++;
+                Karakterler[i].SetActive(true);
+            }
+        }
+        
         ButonlariKapat("musait");
 
         DusmanlariOlustur();

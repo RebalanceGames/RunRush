@@ -55,7 +55,7 @@ public class AnaMenu_Manager : MonoBehaviour
             Debug.LogError("Dil verisi okunamadı.");
         }
 
-        int yeniLevel = _BellekYonetim.VeriOku_i("SonLevel") - 4;
+        int yeniLevel = _BellekYonetim.VeriOku_i("SonLevel") - 5;
         int paraOku = _BellekYonetim.VeriOku_i("Puan");
         int elmasOku = _BellekYonetim.VeriOku_i("Elmas");
 
