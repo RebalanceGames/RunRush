@@ -86,8 +86,11 @@ public class Market_Manager : MonoBehaviour, IStoreListener
 
     public void OdulKazan()
     {
-        _ReklamYonetimi.OdulluReklamGoster();
+        _ReklamYonetimi.OdulluReklamGoster(()=> {
+            _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 300);
+        });
         Debug.Log("Reklam Gösterildi");
+
     }
 
     public void GeriDon()

@@ -70,13 +70,16 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI karaktersayisi;
 
+    private bool SavasDurumuCagirildi = false;
+    private int SonParaKazanci;
+
     private void Awake()
     {
         DynamicGI.UpdateEnvironment();
 
         MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
 
-        _ReklamYonetimi.RequestInterstitial(); 
+        _ReklamYonetimi.RequestInterstitial();
         _ReklamYonetimi.RequestRewardedAd();
 
         _ReklamYonetimi.RequestBanner();
@@ -109,7 +112,7 @@ public class GameManager : MonoBehaviour
                 Karakterler[i].SetActive(true);
             }
         }
-        
+
         ButonlariKapat("musait");
 
         DusmanlariOlustur();
@@ -209,10 +212,17 @@ public class GameManager : MonoBehaviour
 
         SonaGeldikmi = true;
         SavasDurumu();
+        Debug.Log("Savas Durumu");
     }
 
     void SavasDurumu()
     {
+        int altin = 0;
+        int elmas = 0;
+
+        if (SavasDurumuCagirildi)
+            return;
+
         if (!SonaGeldikmi)
         {
             ButonlariKapat("musait");
@@ -226,18 +236,18 @@ public class GameManager : MonoBehaviour
             if (AnlikKarakterSayisi == 1 || DusmanlarKontrol.Count == 0 || KacBossOlsun == 0)
             {
                 OyunBittimi = true;
-               /*foreach (var item in Dusmanlar)
-                    item?.GetComponent<Animator>()?.SetBool("Saldir", false);
+                /*foreach (var item in Dusmanlar)
+                     item?.GetComponent<Animator>()?.SetBool("Saldir", false);
 
-                foreach (var item in Karakterler)
-                    item?.GetComponent<Animator>()?.SetBool("Saldir", false);
+                 foreach (var item in Karakterler)
+                     item?.GetComponent<Animator>()?.SetBool("Saldir", false);
 
-                _AnaKarakter?.GetComponent<Animator>()?.SetBool("Saldir", false);*/
-                
+                 _AnaKarakter?.GetComponent<Animator>()?.SetBool("Saldir", false);*/
+
                 if (KacBossOlsun > 0 && AnlikKarakterSayisi == 1)
                 {
-                    int altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
-                    int elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
+                    altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
+                    elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
 
                     _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
@@ -245,11 +255,12 @@ public class GameManager : MonoBehaviour
                     kaybedilenAltin.text = altin.ToString();
                     kaybedilenElmas.text = elmas.ToString();
                     islemPanelleri[3]?.SetActive(true);
+                    SavasDurumuCagirildi = true;
                 }
                 else if (KacBossOlsun <= 0 && AnlikKarakterSayisi > 0)
                 {
-                    int altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
-                    int elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
+                    altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
+                    elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
 
                     _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
@@ -261,6 +272,7 @@ public class GameManager : MonoBehaviour
                         _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
 
                     islemPanelleri[2]?.SetActive(true);
+                    SavasDurumuCagirildi = true;
                 }
             }
         }
@@ -270,19 +282,19 @@ public class GameManager : MonoBehaviour
             {
                 OyunBittimi = true;
 
-               /*foreach (var item in Dusmanlar)
-                    item?.GetComponent<Animator>()?.SetBool("Saldir", false);
+                /*foreach (var item in Dusmanlar)
+                     item?.GetComponent<Animator>()?.SetBool("Saldir", false);
 
-                foreach (var item in Karakterler)
-                    item?.GetComponent<Animator>()?.SetBool("Saldir", false);
+                 foreach (var item in Karakterler)
+                     item?.GetComponent<Animator>()?.SetBool("Saldir", false);
 
-                _AnaKarakter?.GetComponent<Animator>()?.SetBool("Saldir", false);*/
-                
+                 _AnaKarakter?.GetComponent<Animator>()?.SetBool("Saldir", false);*/
+
                 if (KacDusmanOlsun > 0 && AnlikKarakterSayisi == 1)
                 {
                     Debug.Log("Kaybettik");
-                    int altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
-                    int elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
+                    altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
+                    elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
 
                     _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
@@ -290,13 +302,14 @@ public class GameManager : MonoBehaviour
                     kaybedilenAltin.text = altin.ToString();
                     kaybedilenElmas.text = elmas.ToString();
                     islemPanelleri[3]?.SetActive(true);
+                    SavasDurumuCagirildi = true;
                 }
-                else if (KacDusmanOlsun  <= 0 && AnlikKarakterSayisi > 0)
+                else if (KacDusmanOlsun <= 0 && AnlikKarakterSayisi > 0)
                 {
                     Debug.Log("Kazandık");
-                    int altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
-                    int elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
-
+                    altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
+                    elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
+                    Debug.Log(altin);
                     _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
 
@@ -307,80 +320,82 @@ public class GameManager : MonoBehaviour
                         _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
 
                     islemPanelleri[2]?.SetActive(true);
+                    SavasDurumuCagirildi = true;
                 }
             }
         }
-        
-        
-       /* if (AnlikKarakterSayisi == 1 || DusmanlarKontrol.Count == 0 || KacBossOlsun == 0)
-        {
-            OyunBittimi = true;
 
-            foreach (var item in Dusmanlar)
-                item?.GetComponent<Animator>()?.SetBool("Saldir", false);
+        SonParaKazanci = altin;
 
-            foreach (var item in Karakterler)
-                item?.GetComponent<Animator>()?.SetBool("Saldir", false);
+        /* if (AnlikKarakterSayisi == 1 || DusmanlarKontrol.Count == 0 || KacBossOlsun == 0)
+         {
+             OyunBittimi = true;
 
-            _AnaKarakter?.GetComponent<Animator>()?.SetBool("Saldir", false);
-            //  _ReklamYonetimi.GecisReklamiGoster();
+             foreach (var item in Dusmanlar)
+                 item?.GetComponent<Animator>()?.SetBool("Saldir", false);
 
-            if (AnlikKarakterSayisi < DusmanlarKontrol.Count || AnlikKarakterSayisi < KacBossOlsun)
-            {
-                int altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
-                int elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
+             foreach (var item in Karakterler)
+                 item?.GetComponent<Animator>()?.SetBool("Saldir", false);
 
-                _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
-                _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
+             _AnaKarakter?.GetComponent<Animator>()?.SetBool("Saldir", false);
+             //  _ReklamYonetimi.GecisReklamiGoster();
 
-                kaybedilenAltin.text = altin.ToString();
-                kaybedilenElmas.text = elmas.ToString();
-                islemPanelleri[3]?.SetActive(true);
-            }
-            else
-            {
-                if (BossLevel)
-                {
-                    if ( Bosslar[0].gameObject.GetComponent<Dusman>().boss.hp <= 0 && AnlikKarakterSayisi > 0)
-                    {
-                        int altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
-                        int elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
+             if (AnlikKarakterSayisi < DusmanlarKontrol.Count || AnlikKarakterSayisi < KacBossOlsun)
+             {
+                 int altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
+                 int elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
 
-                        _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
-                        _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
+                 _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
+                 _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
 
-                        kazanilanAltin.text = altin.ToString();
-                        kazanilanElmas.text = elmas.ToString();
+                 kaybedilenAltin.text = altin.ToString();
+                 kaybedilenElmas.text = elmas.ToString();
+                 islemPanelleri[3]?.SetActive(true);
+             }
+             else
+             {
+                 if (BossLevel)
+                 {
+                     if ( Bosslar[0].gameObject.GetComponent<Dusman>().boss.hp <= 0 && AnlikKarakterSayisi > 0)
+                     {
+                         int altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
+                         int elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
 
-                        if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
-                            _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
+                         _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
+                         _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
 
-                        islemPanelleri[2]?.SetActive(true);
-                    }
-                }
-                else
-                {
-                    
-                    if (KacDusmanOlsun <= 0 && AnlikKarakterSayisi > 0)
-                    {
-                        Debug.Log("Kazandık");
-                        int altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
-                        int elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
+                         kazanilanAltin.text = altin.ToString();
+                         kazanilanElmas.text = elmas.ToString();
 
-                        _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
-                        _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
+                         if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
+                             _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
 
-                        kazanilanAltin.text = altin.ToString();
-                        kazanilanElmas.text = elmas.ToString();
+                         islemPanelleri[2]?.SetActive(true);
+                     }
+                 }
+                 else
+                 {
 
-                        if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
-                            _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
+                     if (KacDusmanOlsun <= 0 && AnlikKarakterSayisi > 0)
+                     {
+                         Debug.Log("Kazandık");
+                         int altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
+                         int elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
 
-                        islemPanelleri[2]?.SetActive(true);
-                    }
-                }
-            }
-        }*/
+                         _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
+                         _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
+
+                         kazanilanAltin.text = altin.ToString();
+                         kazanilanElmas.text = elmas.ToString();
+
+                         if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
+                             _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
+
+                         islemPanelleri[2]?.SetActive(true);
+                     }
+                 }
+             }
+         }*/
     }
 
     public void AdamYonetim(string islemturu, int GelenSayi, Transform Pozisyon)
@@ -412,8 +427,8 @@ public class GameManager : MonoBehaviour
                 item.transform.position = Pozisyon;
                 item.GetComponent<ParticleSystem>()?.Play();
                 item.GetComponent<AudioSource>()?.Play();
-                
-                
+
+
 
                 if (!Durum)
                     AnlikKarakterSayisi--;
@@ -422,8 +437,9 @@ public class GameManager : MonoBehaviour
 
                 if (Bossmu)
                     KacBossOlsun--;
-                
+
                 SavasDurumu();
+                Debug.Log("Savas Durumu");
                 break;
             }
         }
@@ -442,7 +458,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (!OyunBittimi) SavasDurumu();
+        if (!OyunBittimi) { SavasDurumu(); Debug.Log("Savas Durumu"); }
     }
 
     public void ItemleriKontrolEt()
@@ -563,6 +579,10 @@ public class GameManager : MonoBehaviour
 
     public void OdulluReklam()
     {
-        //_ReklamYonetimi.OdulluReklamGoster();
+        _ReklamYonetimi.OdulluReklamGoster(() =>
+        {
+            _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + SonParaKazanci);
+            kazanilanAltin.text = (SonParaKazanci * 2).ToString();
+        });
     }
 }

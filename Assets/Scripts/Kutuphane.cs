@@ -289,9 +289,9 @@ namespace Ayberk
                 PlayerPrefs.SetString("Dil", "TR");
 
                 PlayerPrefs.SetInt("GecisReklamisayisi", 1);
-                
+
                 // Ozellikler
-                
+
                 PlayerPrefs.SetInt("UpgradeCharacter", 0);
                 PlayerPrefs.SetInt("UpgradePuan", 0);
                 PlayerPrefs.SetInt("UpgradeElmas", 0);
@@ -424,7 +424,7 @@ namespace Ayberk
         private InterstitialAd insterstitial;
 
         private RewardedAd _RewardedAd;
-        
+
         private BannerView bannerView;
 
         //------ GEÇİŞ REKLAMI
@@ -440,16 +440,23 @@ namespace Ayberk
                 AdUnitId = "unexpected_platform";
 #endif
 
-            insterstitial = new InterstitialAd(AdUnitId);
+            if (insterstitial != null)
+            {
+                insterstitial.Destroy();
+                insterstitial = null;
+            }
 
-            AdRequest request = new AdRequest.Builder().Build();
+            AdRequest request = new AdRequest();
+            InterstitialAd.Load(AdUnitId, request, (InterstitialAd ad, LoadAdError error) =>
+            {
+                insterstitial = ad;
+            });
 
-            insterstitial.LoadAd(request);
-
-            insterstitial.OnAdClosed += GecisReklamiKapatildi;
+            insterstitial.OnAdFullScreenContentClosed += GecisReklamiKapatildi;
+            GecisReklamiGoster();
         }
 
-        void GecisReklamiKapatildi(object sender, EventArgs args)
+        void GecisReklamiKapatildi()
         {
             insterstitial.Destroy();
             RequestInterstitial();
@@ -459,14 +466,15 @@ namespace Ayberk
         {
             if (PlayerPrefs.GetInt("GecisReklamisayisi") == 2)
             {
-                if (insterstitial.IsLoaded())
+                if (insterstitial != null && insterstitial.CanShowAd())
                 {
                     PlayerPrefs.SetInt("GecisReklamisayisi", 0);
+
                     insterstitial.Show();
                 }
                 else
                 {
-                    insterstitial.Destroy();
+                    Debug.Log("Geçiş reklamı hazır değil.");
                     RequestInterstitial();
                 }
             }
@@ -488,42 +496,70 @@ namespace Ayberk
 #else
                 AdUnitId = "unexpected_platform";
 #endif
+            AdRequest adRequest = new AdRequest();
+            RewardedAd.Load(AdUnitId, adRequest, (RewardedAd ad, LoadAdError error) =>
+            {
+                if (error != null || ad == null)
+                {
+                    Debug.LogError("Failed to load rewarded ad: " + error);
+                    return;
+                }
+                _RewardedAd = ad;
+            });
 
-            _RewardedAd = new RewardedAd(AdUnitId);
-            AdRequest request = new AdRequest.Builder().Build();
-            _RewardedAd.LoadAd(request);
-
-            _RewardedAd.OnUserEarnedReward += OdulluReklamTamamlandi;
-            _RewardedAd.OnAdClosed += OdulluReklamKapatildi;
-            _RewardedAd.OnAdLoaded += OdulluReklamYuklendi;
+            _RewardedAd.OnAdPaid += OdulluReklamTamamlandi;
+            _RewardedAd.OnAdFullScreenContentClosed += OdulluReklamKapatildi;
         }
 
-        private void OdulluReklamTamamlandi(object sender, Reward e)
+        private void OdulluReklamTamamlandi(AdValue adValue)
         {
-            string type = e.Type;
-            double amount = e.Amount;
-            Debug.Log("ÖDÜL ALINSIN: " + type + "--" + amount);
+            double amount = adValue.Value;
+            Debug.Log("ÖDÜL ALINSIN: " + amount);
         }
 
-        private void OdulluReklamKapatildi(object sender, EventArgs e)
+        private void OdulluReklamKapatildi()
         {
             Debug.Log("REKLAM KAPATILDI");
             RequestRewardedAd();
         }
 
-        private void OdulluReklamYuklendi(object sender, EventArgs e)
-        {
-            Debug.Log("REKLAM YÜKLENDİ");
-        }
+        //private void OdulluReklamYuklendi(object sender, EventArgs e)
+        //{
+        //    Debug.Log("REKLAM YÜKLENDİ");
+        //}
 
         public void OdulluReklamGoster()
         {
-            if (_RewardedAd.IsLoaded())
+            if (_RewardedAd != null && _RewardedAd.CanShowAd())
             {
-                _RewardedAd.Show();
+                _RewardedAd.Show((Reward reward) =>
+                {
+                    Debug.Log($"Kullanıcı ödül aldı: {reward.Amount} {reward.Type}");
+                    double amount = reward.Amount;
+                    Debug.Log("ÖDÜL ALINSIN: " + amount);
+                });
+            }
+            else
+            {
+                Debug.Log("Reklam henüz hazır değil.");
             }
         }
-        
+
+        public void OdulluReklamGoster(Action OnRewarded)
+        {
+            if (_RewardedAd != null && _RewardedAd.CanShowAd())
+            {
+                _RewardedAd.Show((Reward reward) =>
+                {
+                    OnRewarded.Invoke();
+                });
+            }
+            else
+            {
+                Debug.Log("Reklam henüz hazır değil.");
+            }
+        }
+
         public void RequestBanner()
         {
             string AdUnitId;
@@ -536,20 +572,25 @@ namespace Ayberk
         AdUnitId = "unexpected_platform";
 #endif
 
+            if (bannerView != null)
+            {
+                bannerView.Destroy();
+            }
+
             bannerView = new BannerView(AdUnitId, AdSize.Banner, AdPosition.Bottom);
-            AdRequest request = new AdRequest.Builder().Build();
+            AdRequest request = new AdRequest();
             bannerView.LoadAd(request);
 
-            bannerView.OnAdLoaded += BannerYuklendi;
-            bannerView.OnAdClosed += BannerKapatildi;
+            bannerView.OnBannerAdLoaded += BannerYuklendi;
+            bannerView.OnAdFullScreenContentClosed += BannerKapatildi;
         }
 
-        private void BannerYuklendi(object sender, EventArgs e)
+        private void BannerYuklendi()
         {
             Debug.Log("BANNER YÜKLENDİ");
         }
 
-        private void BannerKapatildi(object sender, EventArgs e)
+        private void BannerKapatildi()
         {
             Debug.Log("BANNER KAPATILDI");
         }
