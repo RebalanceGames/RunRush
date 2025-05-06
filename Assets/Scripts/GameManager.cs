@@ -42,6 +42,9 @@ public class GameManager : MonoBehaviour
     [Header("GENEL VERİLER")] public AudioSource[] Sesler;
 
     public Button[] genelButonlar;
+    
+    public List<Button> OdulluReklamButton;
+    
     public GameObject[] islemPanelleri;
     public Slider OyunSesiAyar;
     public List<DilVerileriAnaObje> _DilVerileriAnaObje = new List<DilVerileriAnaObje>();
@@ -67,6 +70,9 @@ public class GameManager : MonoBehaviour
 
     public int kaybedilenMinAltin = 15;
     public int kaybedilenMinElmas = 1;
+
+    public Text kaybettinReklamMiktari;
+    public Text kazandinReklamMiktari;
 
     public TextMeshProUGUI karaktersayisi;
 
@@ -98,6 +104,9 @@ public class GameManager : MonoBehaviour
             Sesler[1].volume = _BellekYonetim.VeriOku_f("MenuFx");
 
         ItemleriKontrolEt();
+
+        OdulluReklamButton[0].interactable = true;
+        OdulluReklamButton[1].interactable = true;
     }
 
     void Start()
@@ -130,6 +139,11 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.LogError("Dil verisi eksik: 6. eleman yok!");
+        }
+        
+        if (_BellekYonetim.VeriOku_f("AltinCarpani") <= 0f)
+        {
+            _BellekYonetim.VeriKaydet_float("AltinCarpani", 1f);
         }
     }
 
@@ -217,6 +231,7 @@ public class GameManager : MonoBehaviour
 
     void SavasDurumu()
     {
+        int kazanc = 0;
         int altin = 0;
         int elmas = 0;
 
@@ -249,11 +264,17 @@ public class GameManager : MonoBehaviour
                     altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
                     elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
 
-                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
+                    kazanc = Mathf.RoundToInt(altin * _BellekYonetim.VeriOku_f("AltinCarpani"));
+                    
+                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + kazanc);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
 
-                    kaybedilenAltin.text = altin.ToString();
+                    kaybedilenAltin.text = kazanc.ToString();
                     kaybedilenElmas.text = elmas.ToString();
+                    
+                    int deger = kazanc * 2;
+                    kaybettinReklamMiktari.text = deger.ToString();
+                    
                     islemPanelleri[3]?.SetActive(true);
                     SavasDurumuCagirildi = true;
                 }
@@ -262,11 +283,16 @@ public class GameManager : MonoBehaviour
                     altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
                     elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
 
-                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
+                    kazanc = Mathf.RoundToInt(altin * _BellekYonetim.VeriOku_f("AltinCarpani"));
+                    
+                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + kazanc);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
 
-                    kazanilanAltin.text = altin.ToString();
+                    kazanilanAltin.text = kazanc.ToString();
                     kazanilanElmas.text = elmas.ToString();
+                    
+                    int deger = kazanc * 2;
+                    kaybettinReklamMiktari.text = deger.ToString();
 
                     if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
                         _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
@@ -296,10 +322,12 @@ public class GameManager : MonoBehaviour
                     altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
                     elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
 
-                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
+                    kazanc = Mathf.RoundToInt(altin * _BellekYonetim.VeriOku_f("AltinCarpani"));
+                    
+                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + kazanc);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
 
-                    kaybedilenAltin.text = altin.ToString();
+                    kaybedilenAltin.text = kazanc.ToString();
                     kaybedilenElmas.text = elmas.ToString();
                     islemPanelleri[3]?.SetActive(true);
                     SavasDurumuCagirildi = true;
@@ -309,11 +337,13 @@ public class GameManager : MonoBehaviour
                     Debug.Log("Kazandık");
                     altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
                     elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
-                    Debug.Log(altin);
-                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + altin);
+                    
+                    kazanc = Mathf.RoundToInt(altin * _BellekYonetim.VeriOku_f("AltinCarpani"));
+                    
+                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + kazanc);
                     _BellekYonetim.VeriKaydet_int("Elmas", _BellekYonetim.VeriOku_i("Elmas") + elmas);
 
-                    kazanilanAltin.text = altin.ToString();
+                    kazanilanAltin.text = kazanc.ToString();
                     kazanilanElmas.text = elmas.ToString();
 
                     if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
@@ -325,7 +355,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        SonParaKazanci = altin;
+        SonParaKazanci = kazanc;
 
         /* if (AnlikKarakterSayisi == 1 || DusmanlarKontrol.Count == 0 || KacBossOlsun == 0)
          {
@@ -579,10 +609,16 @@ public class GameManager : MonoBehaviour
 
     public void OdulluReklam()
     {
+        OdulluReklamButton[0].gameObject.SetActive(false);
+        OdulluReklamButton[1].gameObject.SetActive(false);
+        
+        OdulluReklamButton[0].interactable = false;
+        OdulluReklamButton[1].interactable = false;
         _ReklamYonetimi.OdulluReklamGoster(() =>
         {
             _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + SonParaKazanci);
             kazanilanAltin.text = (SonParaKazanci * 2).ToString();
+            kazanilanAltin.text = SonParaKazanci.ToString();
         });
     }
 }

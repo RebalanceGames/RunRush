@@ -10,6 +10,7 @@ public class Dusman : MonoBehaviour
         public int defance;
         public int damage;
     }
+
     public Character boss;
     public Character Enemy;
 
@@ -20,13 +21,11 @@ public class Dusman : MonoBehaviour
     private bool Saldiri_Basladimi;
     public bool isBoss;
 
-    private float gecenzaman = 0.00f;
-    private float beklemesüresi = 0.6f;
-
     private void Start()
     {
         boss.hp = 10;
     }
+
     public void AnimasyonTetikle()
     {
         if (_Animator != null)
@@ -49,17 +48,12 @@ public class Dusman : MonoBehaviour
         {
             if (_GameManager != null && _GameManager.DusmanlarKontrol.Count > 0)
                 _GameManager.DusmanlarKontrol.RemoveAt(0);
-            
+
             EnemyDeath();
         }
-        else if(other.CompareTag("AltKarakterler") && isBoss)
+        else if (other.CompareTag("AltKarakterler") && isBoss)
         {
-
-            if (Time.time > gecenzaman)
-            {
-                boss.hp--;
-                gecenzaman = Time.time + beklemesüresi;
-            }
+            boss.hp--;
 
             if (boss.hp <= 0)
             {
@@ -82,6 +76,7 @@ public class Dusman : MonoBehaviour
 
         gameObject.SetActive(false);
     }
+
     public void BossDeath()
     {
         var col = gameObject.GetComponent<BoxCollider>();

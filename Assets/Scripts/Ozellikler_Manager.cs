@@ -31,7 +31,15 @@ public class Ozellikler_Manager : MonoBehaviour
 
     public void AltinYukselt()
     {
-        int altinsayisi = _BellekYonetim.VeriOku_i("UpgradePuan") + 1;
+        int altinSeviyesi = _BellekYonetim.VeriOku_i("UpgradePuan");
+        altinSeviyesi += 1;
+
+        float carpim = Mathf.Pow(1.05f, altinSeviyesi);
+
+        _BellekYonetim.VeriKaydet_float("AltinCarpani", carpim);
+        _BellekYonetim.VeriKaydet_int("UpgradePuan", altinSeviyesi);
+        
+        Debug.Log(_BellekYonetim.VeriOku_f("AltinCarpani"));
     }
 
     public void ElmasYukselt()

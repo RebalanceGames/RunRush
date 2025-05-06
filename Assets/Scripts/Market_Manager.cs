@@ -7,6 +7,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using GoogleMobileAds.Api;
 using UnityEngine.Purchasing;
+using UnityEngine.UI;
 
 public class Market_Manager : MonoBehaviour, IStoreListener
 {
@@ -28,6 +29,8 @@ public class Market_Manager : MonoBehaviour, IStoreListener
     public TextMeshProUGUI[] TextObjeleri;
 
     public AudioSource ButonSes;
+
+    public Button ReklamButton;
 
     private void Awake()
     {
@@ -86,12 +89,54 @@ public class Market_Manager : MonoBehaviour, IStoreListener
 
     public void OdulKazan()
     {
-        _ReklamYonetimi.OdulluReklamGoster(()=> {
-            _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 300);
-        });
-        Debug.Log("Reklam Gösterildi");
+        ReklamButton.interactable = false;
+        DateTime simdi = DateTime.Now; // Simdiki Zamanı Alıyor
 
+        if (PlayerPrefs.HasKey("SonOdulTarihi")) // SonOdulTarihi adlı bir key varmı ona bakıyor
+        {
+            Debug.Log("🟡 SonOdulTarihi bulundu!");
+
+            long binary = Convert.ToInt64(PlayerPrefs.GetString("SonOdulTarihi"));
+            DateTime kayitZamani = DateTime.FromBinary(binary);
+            TimeSpan fark = simdi - kayitZamani;
+
+            Debug.Log($"⏱ Son ödül zamanı: {kayitZamani}, Geçen süre: {fark.TotalHours:F2} saat");
+
+            if (fark.TotalHours >= 24)
+            {
+                ReklamButton.interactable = true;
+                Debug.Log("✅ 24 saat geçmiş, ödül veriliyor!");
+                _ReklamYonetimi.OdulluReklamGoster(() =>
+                {
+                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 200);
+                    
+                    PlayerPrefs.SetString("SonOdulTarihi", simdi.ToBinary().ToString());
+                    PlayerPrefs.Save();
+                });
+            }
+            else
+            {
+                ReklamButton.interactable = false;
+                TimeSpan kalan = TimeSpan.FromHours(24) - fark;
+                string yaziliSure = $"{kalan.Hours:D2}:{kalan.Minutes:D2}:{kalan.Seconds:D2}";
+                Debug.Log("⛔ Daha ödül zamanı gelmedi. Kalan süre: " + yaziliSure);
+            }
+        }
+        else
+        {
+            Debug.Log("🟢 İlk giriş! Ödül veriliyor.");
+
+            // 🔁 Yine: tarih sadece ödül alındığında yazılıyor
+            _ReklamYonetimi.OdulluReklamGoster(() =>
+            {
+                _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 200);
+
+                PlayerPrefs.SetString("SonOdulTarihi", simdi.ToBinary().ToString());
+                PlayerPrefs.Save();
+            });
+        }
     }
+
 
     public void GeriDon()
     {

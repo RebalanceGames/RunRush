@@ -292,9 +292,10 @@ namespace Ayberk
 
                 // Ozellikler
 
-                PlayerPrefs.SetInt("UpgradeCharacter", 0);
-                PlayerPrefs.SetInt("UpgradePuan", 0);
-                PlayerPrefs.SetInt("UpgradeElmas", 0);
+                PlayerPrefs.SetInt("UpgradeCharacter", 1);
+                PlayerPrefs.SetInt("UpgradePuan", 1);
+                PlayerPrefs.SetFloat("AltinCarpani", 1f);
+                PlayerPrefs.SetInt("UpgradeElmas", 1);
             }
         }
     }
