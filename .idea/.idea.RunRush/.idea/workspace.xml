@@ -6,16 +6,1451 @@
   <component name="ChangeListManager">
     <list default="true" id="f79b578f-5b3e-48e7-8f94-aff768d118f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunRush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunRush/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/LilitaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/LilitaOne-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Documentation/Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Documentation/Documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Font.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Font/LilitaOne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Font/LilitaOne-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Font/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Font/OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Daily Rewards.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Daily Rewards.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/End Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/End Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Levels.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Levels.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Main.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Main.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Settings.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Settings.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Store.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Scenes/Store.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/1- Main 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/1- Main 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/10- End Game 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/10- End Game 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/11- Daily Rewards 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/11- Daily Rewards 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/12- Daily Rewards 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/12- Daily Rewards 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/13- Settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/13- Settings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/14- Settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/14- Settings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/2- Main 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/2- Main 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/3- Store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/3- Store.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/4- Levels 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/4- Levels 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/5- Levels 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/5- Levels 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/6- End Game 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/6- End Game 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/7- End Game 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/7- End Game 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/8- End Game 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/8- End Game 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/9- End Game 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Screenshots/9- End Game 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Shadow Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Background Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Band Black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Band Black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Band White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/Band White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Backgrounds/End Game Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Adsız tasarım (71).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Adsız tasarım (71).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Heading Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Box Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Boxes/Upgrade Box Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Shadow Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Wheel Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Wheel Arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Wheel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Ad Wheel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Badge Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Circle Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Left Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Large Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rectangle Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Right Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Large Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Rounded Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Buttons/Button Square Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Angry Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Angry Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Astonished Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Astonished Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Confused Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Confused Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Crying Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Crying Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Disappointed Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Disappointed Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Downcast Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Downcast Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Face With Head-Bandage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Face With Head-Bandage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Face With Sunglasses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Face With Sunglasses.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Frightened Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Frightened Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Grinning Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Grinning Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Knocked-out Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Knocked-out Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Loudly Crying Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Loudly Crying Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Persevering Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Persevering Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Sleepy Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Sleepy Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Slightly Smiling Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Slightly Smiling Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face With Dollar-eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face With Dollar-eyes.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face With Heart-eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face With Heart-eyes.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face With Star-eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face With Star-eyes.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Smiling Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Winking Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Emojis/Winking Face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Back White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Coin Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Coin Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Coin Dollar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Coin Dollar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Coin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Collection Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Collection Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Gem Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Hand Black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Hand Black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Hand White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Hand White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Levels White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Lock White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Main Menu White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Level White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Next White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Ranking White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Restart White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Store White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/Tic White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck 2 background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck 2 background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote deck.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied 2 background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied 2 background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied 2 orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied 2 orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied 2 white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied 2 white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote tied white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/banknote.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Icons/star.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Close Button Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Popup Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Popups/Ribbon Popup Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Level Bars/Level Bar Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Big Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 1/Progress Bar Small Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Progress Bars/Progress Bar 2/Progress Bar Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Pause White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Music Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Bllue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Bllue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Sound Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Background Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Switch Button Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Popup/Vibration Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Background Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Tuquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Button Tuquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Slider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Slider.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Settings White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Info White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Off White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Off White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Off Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music Shadow Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Music White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Blue_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Blue_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Point White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Privacy Policy White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Off White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Off White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Off Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound Shadow Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Sound White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Off White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Off White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Off Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration Shadow Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Settings/Slider/Vibration White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Case Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Page White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Shadow Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Store Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Turquoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Store/Tab Turquoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Amazing 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Amazing 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Amazing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Amazing.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Awesome 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Awesome 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Awesome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Awesome.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Defeated 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Defeated 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Defeated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Defeated.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Excellent 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Excellent 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Excellent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Excellent.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Good 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Good 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Good.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Good.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Great 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Great 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Great.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Great.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Incredible 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Incredible 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Incredible.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Incredible.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Completed 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Completed 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Completed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Completed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Failed 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Failed 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Level Failed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Perfect 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Perfect 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Perfect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Perfect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Success 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Success 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Success.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Unbelievable 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Unbelievable 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Unbelievable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Unbelievable.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Victory 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Victory 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Victory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/Victory.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Lost 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Lost 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Lost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Lost.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Win 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Win 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Win.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual GUI Pack/Sprites/Texts/You Win.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/AI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/AI/RampTextures.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/AI/RampTextures.ai.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-10.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-10.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-11.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-11.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-12.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-12.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-14.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-14.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-15.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-15.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-17.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-17.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-18.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-18.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-19.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-19.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-2.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-2.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-20.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-20.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-21.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-21.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-22.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-22.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-23.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-23.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-24.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-24.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-25.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-25.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-26.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-26.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-27.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-27.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-28.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-28.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-3.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-3.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-4.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-4.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-5.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-5.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-9.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Animator/Obstacle-9.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Documentation/Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Documentation/Documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-10.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-10.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-11.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-11.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-12.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-12.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-14.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-14.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-15.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-15.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-16.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-16.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-17.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-17.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-18.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-18.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-19.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-19.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-20.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-20.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-21.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-21.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-22.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-22.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-23.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-23.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-24.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-24.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-25.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-25.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-26.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-26.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-27.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-27.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-28.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-28.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-29.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-29.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-6.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-6.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-7.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-7.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-8.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-8.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-9.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/FBX/Obstacle-9.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/blue 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/blue 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/blue 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/blue 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/blue 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/blue 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/finish line.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/finish line.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/gray 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/gray 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/gray 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/gray 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/gray 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/gray 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/ramp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/ramp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/white.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Materials/white.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/1 Lane Ramp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/1 Lane Ramp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/2 Lane Ramp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/2 Lane Ramp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/3 Lane Ramp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/3 Lane Ramp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Big Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Big Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Finish Line.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Finish Line.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Hammer Left.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Hammer Left.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Hammer Middle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Hammer Middle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Hammer Right.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Hammer Right.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Knife Left.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Knife Left.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Knife Right.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Knife Right.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Grinder Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Grinder Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Grinder Triple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Grinder Triple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Round Grinder Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Round Grinder Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Round Grinder Triple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Round Grinder Triple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Round Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Moving Round Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Obstacle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Obstacle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Small Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Small Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Small Moving Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Small Moving Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Small Spike.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Small Spike.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Spike.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Spike.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Swing Axe.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Swing Axe.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Swing Mace.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Swing Mace.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Turning Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Turning Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Turning Round Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Turning Round Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Vertical Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Vertical Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Vertical Round Grinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Prefabs/Vertical Round Grinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Scenes/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Scenes/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Script/TextureChanger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Script/TextureChanger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/finish line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/finish line.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mega Hyper Casual Obstacles Pack/Textures/ramp 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ChatGPT Image 5 May 2025 19_17_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ChatGPT Image 5 May 2025 19_17_09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/DusmanTexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/DusmanTexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_0.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_0.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_bos.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_bos.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_dusman.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/Ninja_dusman.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeller/KarakterModeli/models/Materials/ninjaGorsel_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Karakter 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Karakter 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Karakter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Karakter.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AnaMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AnaMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ayarlar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ayarlar.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_Boss.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_Boss.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leveller/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leveller/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leveller/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leveller/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levelsec.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levelsec.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Market.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Market.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ozellestir.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ozellestir.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ozellikler.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ozellikler.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dusman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dusman.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Kutuphane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Kutuphane.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Market_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Market_Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ozellikler_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ozellikler_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Karakter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Karakter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ozellestirme.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ozellestirme.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/testmanager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/testmanager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +1459,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Alt_karakter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -113,6 +1551,8 @@
       <workItem from="1746471081789" duration="1241000" />
       <workItem from="1746472545624" duration="2100000" />
       <workItem from="1746556676845" duration="6175000" />
+      <workItem from="1746645496548" duration="1231000" />
+      <workItem from="1746650633227" duration="1981000" />
     </task>
     <servers />
   </component>
