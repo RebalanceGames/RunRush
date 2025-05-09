@@ -90,25 +90,25 @@ public class Market_Manager : MonoBehaviour, IStoreListener
     public void OdulKazan()
     {
         ReklamButton.interactable = false;
-        DateTime simdi = DateTime.Now; // Simdiki Zamanı Alıyor
+        DateTime simdi = DateTime.Now; 
 
-        if (PlayerPrefs.HasKey("SonOdulTarihi")) // SonOdulTarihi adlı bir key varmı ona bakıyor
+        if (PlayerPrefs.HasKey("SonOdulTarihi")) 
         {
-            Debug.Log("🟡 SonOdulTarihi bulundu!");
+            Debug.Log("SonOdulTarihi bulundu!");
 
             long binary = Convert.ToInt64(PlayerPrefs.GetString("SonOdulTarihi"));
             DateTime kayitZamani = DateTime.FromBinary(binary);
             TimeSpan fark = simdi - kayitZamani;
 
-            Debug.Log($"⏱ Son ödül zamanı: {kayitZamani}, Geçen süre: {fark.TotalHours:F2} saat");
+            Debug.Log($"Son ödül zamanı: {kayitZamani}, Geçen süre: {fark.TotalHours:F2} saat");
 
             if (fark.TotalHours >= 24)
             {
                 ReklamButton.interactable = true;
-                Debug.Log("✅ 24 saat geçmiş, ödül veriliyor!");
+                Debug.Log("24 saat geçmiş, ödül veriliyor!");
                 _ReklamYonetimi.OdulluReklamGoster(() =>
                 {
-                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 200);
+                    _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 300);
                     
                     PlayerPrefs.SetString("SonOdulTarihi", simdi.ToBinary().ToString());
                     PlayerPrefs.Save();
@@ -119,17 +119,16 @@ public class Market_Manager : MonoBehaviour, IStoreListener
                 ReklamButton.interactable = false;
                 TimeSpan kalan = TimeSpan.FromHours(24) - fark;
                 string yaziliSure = $"{kalan.Hours:D2}:{kalan.Minutes:D2}:{kalan.Seconds:D2}";
-                Debug.Log("⛔ Daha ödül zamanı gelmedi. Kalan süre: " + yaziliSure);
+                Debug.Log("Daha ödül zamanı gelmedi. Kalan süre: " + yaziliSure);
             }
         }
         else
         {
-            Debug.Log("🟢 İlk giriş! Ödül veriliyor.");
-
-            // 🔁 Yine: tarih sadece ödül alındığında yazılıyor
+            Debug.Log("İlk giriş! Ödül veriliyor.");
+            
             _ReklamYonetimi.OdulluReklamGoster(() =>
             {
-                _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 200);
+                _BellekYonetim.VeriKaydet_int("Puan", _BellekYonetim.VeriOku_i("Puan") + 300);
 
                 PlayerPrefs.SetString("SonOdulTarihi", simdi.ToBinary().ToString());
                 PlayerPrefs.Save();

@@ -27,11 +27,6 @@ public class Ayarlar_Manager : MonoBehaviour
     private int AktifDilIndex;
     private void Start()
     {
-        MobileAds.Initialize(initStatus =>
-        {
-            Debug.Log("AdMob initialized.");
-        });
-        
         MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
 
         _ReklamYonetimi.RequestBanner();

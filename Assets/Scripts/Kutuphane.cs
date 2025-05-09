@@ -9,7 +9,8 @@ namespace Ayberk
 {
     public class Matematiksel_islemler
     {
-        public void Carpma(int GelenSayi, List<GameObject> Karakterler, Transform Pozisyon, List<GameObject> OlusturmaEfektleri)
+        public void Carpma(int GelenSayi, List<GameObject> Karakterler, Transform Pozisyon,
+            List<GameObject> OlusturmaEfektleri)
         {
             int DonguSayisi = (GameManager.AnlikKarakterSayisi * GelenSayi) - GameManager.AnlikKarakterSayisi;
             int sayi = 0;
@@ -274,7 +275,7 @@ namespace Ayberk
         {
             if (!PlayerPrefs.HasKey("SonLevel"))
             {
-                PlayerPrefs.SetInt("SonLevel", 6);
+                PlayerPrefs.SetInt("SonLevel", 7);
                 PlayerPrefs.SetInt("Puan", 100);
                 PlayerPrefs.SetInt("Elmas", 0);
 
@@ -296,6 +297,10 @@ namespace Ayberk
                 PlayerPrefs.SetInt("UpgradePuan", 1);
                 PlayerPrefs.SetFloat("AltinCarpani", 1f);
                 PlayerPrefs.SetInt("UpgradeElmas", 1);
+                
+                
+                PlayerPrefs.SetString("OdulLastClaim", DateTime.MinValue.ToString());
+                PlayerPrefs.SetInt("OdulClaimedCount", 0);
             }
         }
     }
@@ -355,6 +360,7 @@ namespace Ayberk
                 bf.Serialize(file, _DilVerileri);
                 file.Close();
             }
+
             if (!PlayerPrefs.HasKey("Dil"))
             {
                 // Eğer dil ayarı yapılmamışsa, cihazın diline göre ayarlama yapalım
@@ -372,6 +378,7 @@ namespace Ayberk
                 {
                     PlayerPrefs.SetString("Dil", "EN");
                 }
+
                 PlayerPrefs.Save();
             }
         }
@@ -423,22 +430,19 @@ namespace Ayberk
     public class ReklamYonetim
     {
         private InterstitialAd insterstitial;
-
         private RewardedAd _RewardedAd;
-
         private BannerView bannerView;
 
         //------ GEÇİŞ REKLAMI
         public void RequestInterstitial()
         {
             string AdUnitId;
-
 #if UNITY_ANDROID
             AdUnitId = "ca-app-pub-3940256099942544/1033173712";
 #elif UNITY_IPHONE
-                AdUnitId = "ca-app-pub-3940256099942544/4411468910";
+        AdUnitId = "ca-app-pub-3940256099942544/4411468910";
 #else
-                AdUnitId = "unexpected_platform";
+        AdUnitId = "unexpected_platform";
 #endif
 
             if (insterstitial != null)
@@ -448,13 +452,19 @@ namespace Ayberk
             }
 
             AdRequest request = new AdRequest();
+
             InterstitialAd.Load(AdUnitId, request, (InterstitialAd ad, LoadAdError error) =>
             {
-                insterstitial = ad;
-            });
+                if (error != null || ad == null)
+                {
+                    Debug.LogError("Geçiş reklamı yüklenemedi: " + error);
+                    return;
+                }
 
-            insterstitial.OnAdFullScreenContentClosed += GecisReklamiKapatildi;
-            GecisReklamiGoster();
+                insterstitial = ad;
+                insterstitial.OnAdFullScreenContentClosed += GecisReklamiKapatildi;
+                GecisReklamiGoster();
+            });
         }
 
         void GecisReklamiKapatildi()
@@ -470,7 +480,6 @@ namespace Ayberk
                 if (insterstitial != null && insterstitial.CanShowAd())
                 {
                     PlayerPrefs.SetInt("GecisReklamisayisi", 0);
-
                     insterstitial.Show();
                 }
                 else
@@ -489,27 +498,28 @@ namespace Ayberk
         public void RequestRewardedAd()
         {
             string AdUnitId;
-
 #if UNITY_ANDROID
             AdUnitId = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IPHONE
-                AdUnitId = "ca-app-pub-3940256099942544/1712485313";
+        AdUnitId = "ca-app-pub-3940256099942544/1712485313";
 #else
-                AdUnitId = "unexpected_platform";
+        AdUnitId = "unexpected_platform";
 #endif
+
             AdRequest adRequest = new AdRequest();
             RewardedAd.Load(AdUnitId, adRequest, (RewardedAd ad, LoadAdError error) =>
             {
                 if (error != null || ad == null)
                 {
-                    Debug.LogError("Failed to load rewarded ad: " + error);
+                    Debug.LogError("Ödüllü reklam yüklenemedi: " + error);
                     return;
                 }
-                _RewardedAd = ad;
-            });
 
-            _RewardedAd.OnAdPaid += OdulluReklamTamamlandi;
-            _RewardedAd.OnAdFullScreenContentClosed += OdulluReklamKapatildi;
+                _RewardedAd = ad;
+
+                _RewardedAd.OnAdPaid += OdulluReklamTamamlandi;
+                _RewardedAd.OnAdFullScreenContentClosed += OdulluReklamKapatildi;
+            });
         }
 
         private void OdulluReklamTamamlandi(AdValue adValue)
@@ -523,11 +533,6 @@ namespace Ayberk
             Debug.Log("REKLAM KAPATILDI");
             RequestRewardedAd();
         }
-
-        //private void OdulluReklamYuklendi(object sender, EventArgs e)
-        //{
-        //    Debug.Log("REKLAM YÜKLENDİ");
-        //}
 
         public void OdulluReklamGoster()
         {
@@ -550,10 +555,7 @@ namespace Ayberk
         {
             if (_RewardedAd != null && _RewardedAd.CanShowAd())
             {
-                _RewardedAd.Show((Reward reward) =>
-                {
-                    OnRewarded.Invoke();
-                });
+                _RewardedAd.Show((Reward reward) => { OnRewarded?.Invoke(); });
             }
             else
             {
@@ -564,7 +566,6 @@ namespace Ayberk
         public void RequestBanner()
         {
             string AdUnitId;
-
 #if UNITY_ANDROID
             AdUnitId = "ca-app-pub-3940256099942544/6300978111";
 #elif UNITY_IPHONE
@@ -610,5 +611,5 @@ namespace Ayberk
         {
             bannerView?.Destroy();
         }
-    }
+    } // class sonu
 }

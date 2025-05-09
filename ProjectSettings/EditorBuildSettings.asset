@@ -24,9 +24,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Ozellikler.unity
     guid: c997873f90a14e943b6474d6d090c4e0
   - enabled: 1
+    path: Assets/Scenes/GunlukOdul.unity
+    guid: 0c6fa572b2900f64eb7659f528b81b71
+  - enabled: 1
     path: Assets/Scenes/Leveller/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Leveller/Level2.unity
     guid: 79a43f8806b83944380b2f43bd3e71ae
+  - enabled: 0
+    path: Assets/Scenes/deneme.unity
+    guid: 4cfd4b23a85bb7b4498204f9aec9ffb9
   m_configObjects: {}
