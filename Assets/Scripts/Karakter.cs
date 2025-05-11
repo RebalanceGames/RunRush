@@ -22,10 +22,12 @@ public class Karakter : MonoBehaviour
     private NavMeshAgent agent;
 
     [SerializeField] private float sagSolLimit = 2.5f;
+    private Animator _Animator;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        _Animator = GetComponent<Animator>();
         if (_Slider != null && GecisNoktasi != null)
         {
             float Fark = Vector3.Distance(transform.position, GecisNoktasi.transform.position);
@@ -35,6 +37,16 @@ public class Karakter : MonoBehaviour
 
     private void Update()
     {
+        if (!OrtakManager.oyunBasladimi)
+        {
+            _Animator.SetBool("Saldir", false);
+            return;
+        }
+        else
+        {
+            _Animator.SetBool("Saldir", true);
+        }
+        
         if (!SonaGeldikmi)
         {
             transform.Translate(Vector3.forward * Karakter_Hizi * Time.deltaTime);
@@ -72,7 +84,7 @@ public class Karakter : MonoBehaviour
                         hedefX = Mathf.Clamp(hedefX, -sagSolLimit, sagSolLimit);
 
                         transform.position = Vector3.Lerp(transform.position,
-                            new Vector3(hedefX, transform.position.y, transform.position.z), 0.1f);
+                            new Vector3(hedefX, transform.position.y, transform.position.z), 0.2f);
                     }
                 }
                 else
@@ -94,7 +106,7 @@ public class Karakter : MonoBehaviour
                             hedefX = Mathf.Clamp(hedefX, -sagSolLimit, sagSolLimit);
 
                             transform.position = Vector3.Lerp(transform.position,
-                                new Vector3(hedefX, transform.position.y, transform.position.z), 0.1f);
+                                new Vector3(hedefX, transform.position.y, transform.position.z), 0.2f);
 
                             parmakBaslangicPozisyonu = parmakGuncelPozisyonu;
                         }

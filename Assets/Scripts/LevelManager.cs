@@ -30,11 +30,6 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        MobileAds.Initialize(initStatus =>
-        {
-            Debug.Log("AdMob initialized.");
-        });
-        
         MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
 
         _ReklamYonetimi.RequestBanner();
@@ -55,7 +50,7 @@ public class LevelManager : MonoBehaviour
         if (ButonSes != null)
             ButonSes.volume = _BellekYonetim.VeriOku_f("MenuSes");
 
-        int mevcutLevel = _BellekYonetim.VeriOku_i("SonLevel") - 4;
+        int mevcutLevel = _BellekYonetim.VeriOku_i("SonLevel") - 6;
         int Index = 1;
 
         for (int i = 0; i < Butonlar.Length; i++)
@@ -66,7 +61,7 @@ public class LevelManager : MonoBehaviour
                 if (textObj != null)
                     textObj.text = (i + 1).ToString();
 
-                int sahneIndex = Index + 4;
+                int sahneIndex = Index + 6;
                 Butonlar[i].onClick.AddListener(delegate { SahneYukle(sahneIndex); });
             }
             else

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -21,11 +22,32 @@ public class Dusman : MonoBehaviour
     private bool Saldiri_Basladimi;
     public bool isBoss;
 
+    private bool bulunanKonumaGittimi;
+    private bool animAcildimi;
     private void Start()
     {
         boss.hp = 10;
     }
 
+    private void Update()
+    {
+        if (Saldiri_Basladimi)
+        {
+            float distance = Vector3.Distance(transform.position, Saldir_Hedefi.transform.position);
+            if (distance < 0.2f && isBoss)
+            {
+                Debug.Log("girdi");
+                _Animator.SetBool("Saldir", false);
+                _NavmeshAgent.isStopped = true;
+            }
+            else
+            {
+                _NavmeshAgent.SetDestination(Saldir_Hedefi.transform.position);
+                _NavmeshAgent.isStopped = false;
+            }
+        }
+    }
+    
     public void AnimasyonTetikle()
     {
         if (_Animator != null)
@@ -33,15 +55,7 @@ public class Dusman : MonoBehaviour
 
         Saldiri_Basladimi = true;
     }
-
-    private void LateUpdate()
-    {
-        if (Saldiri_Basladimi && Saldir_Hedefi != null && _NavmeshAgent != null)
-        {
-            _NavmeshAgent.SetDestination(Saldir_Hedefi.transform.position);
-        }
-    }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("AltKarakterler") && !isBoss)
@@ -49,6 +63,7 @@ public class Dusman : MonoBehaviour
             if (_GameManager != null && _GameManager.DusmanlarKontrol.Count > 0)
                 _GameManager.DusmanlarKontrol.RemoveAt(0);
 
+            bulunanKonumaGittimi = true;
             EnemyDeath();
         }
         else if (other.CompareTag("AltKarakterler") && isBoss)

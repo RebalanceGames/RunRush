@@ -84,10 +84,9 @@ public class GameManager : MonoBehaviour
         DynamicGI.UpdateEnvironment();
 
         MobileAds.Initialize(initStatus => { Debug.Log("AdMob initialized."); });
-
-        _ReklamYonetimi.RequestInterstitial();
+        
         _ReklamYonetimi.RequestRewardedAd();
-
+                            
         _ReklamYonetimi.RequestBanner();
 
         AnlikKarakterSayisi = 1;
@@ -261,6 +260,7 @@ public class GameManager : MonoBehaviour
 
                 if (KacBossOlsun > 0 && AnlikKarakterSayisi == 1)
                 {
+                    _ReklamYonetimi.RequestInterstitial();
                     altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
                     elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
 
@@ -274,12 +274,13 @@ public class GameManager : MonoBehaviour
                     
                     int deger = kazanc * 2;
                     kaybettinReklamMiktari.text = deger.ToString();
-                    
+
                     islemPanelleri[3]?.SetActive(true);
                     SavasDurumuCagirildi = true;
                 }
                 else if (KacBossOlsun <= 0 && AnlikKarakterSayisi > 0)
                 {
+                    _ReklamYonetimi.RequestInterstitial();
                     altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
                     elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
 
@@ -292,7 +293,7 @@ public class GameManager : MonoBehaviour
                     kazanilanElmas.text = elmas.ToString();
                     
                     int deger = kazanc * 2;
-                    kaybettinReklamMiktari.text = deger.ToString();
+                    kazandinReklamMiktari.text = deger.ToString();
 
                     if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
                         _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
@@ -318,6 +319,7 @@ public class GameManager : MonoBehaviour
 
                 if (KacDusmanOlsun > 0 && AnlikKarakterSayisi == 1)
                 {
+                    _ReklamYonetimi.RequestInterstitial();
                     Debug.Log("Kaybettik");
                     altin = Random.Range(kaybedilenMinAltin, kaybedilenMaxAltin);
                     elmas = Random.Range(kaybedilenMinElmas, kaybedilenMaxElmas);
@@ -329,11 +331,16 @@ public class GameManager : MonoBehaviour
 
                     kaybedilenAltin.text = kazanc.ToString();
                     kaybedilenElmas.text = elmas.ToString();
+                    
+                    int deger = kazanc * 2;
+                    kaybettinReklamMiktari.text = deger.ToString();
+
                     islemPanelleri[3]?.SetActive(true);
                     SavasDurumuCagirildi = true;
                 }
                 else if (KacDusmanOlsun <= 0 && AnlikKarakterSayisi > 0)
                 {
+                    _ReklamYonetimi.RequestInterstitial();
                     Debug.Log("Kazandık");
                     altin = Random.Range(kazanilanMinAltin, kazanilanMaxAltin);
                     elmas = Random.Range(kazanilanMinElmas, kazanilanMaxElmas);
@@ -345,6 +352,9 @@ public class GameManager : MonoBehaviour
 
                     kazanilanAltin.text = kazanc.ToString();
                     kazanilanElmas.text = elmas.ToString();
+                    
+                    int deger = kazanc * 2;
+                    kazandinReklamMiktari.text = deger.ToString();
 
                     if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
                         _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);

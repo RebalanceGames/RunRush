@@ -45,6 +45,8 @@ public class Market_Manager : MonoBehaviour, IStoreListener
         _ReklamYonetimi.RequestRewardedAd();
         
         _ReklamYonetimi.RequestBanner();
+        
+        OdulButonDurumunuKontrolEt();
 
         _VeriYonetimi.Dil_Load();
         _DilOkunanVeriler = _VeriYonetimi.DilVerileriListeyiAktar();
@@ -136,6 +138,31 @@ public class Market_Manager : MonoBehaviour, IStoreListener
         }
     }
 
+    private void OdulButonDurumunuKontrolEt()
+    {
+        DateTime simdi = DateTime.Now;
+
+        if (PlayerPrefs.HasKey("SonOdulTarihi"))
+        {
+            long binary = Convert.ToInt64(PlayerPrefs.GetString("SonOdulTarihi"));
+            DateTime kayitZamani = DateTime.FromBinary(binary);
+            TimeSpan fark = simdi - kayitZamani;
+
+            if (fark.TotalHours >= 24)
+            {
+                ReklamButton.interactable = true;
+            }
+            else
+            {
+                ReklamButton.interactable = false;
+            }
+        }
+        else
+        {
+            // İlk girişte buton aktif olabilir
+            ReklamButton.interactable = true;
+        }
+    }
 
     public void GeriDon()
     {
