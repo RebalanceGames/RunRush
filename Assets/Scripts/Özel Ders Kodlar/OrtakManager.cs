@@ -6,12 +6,13 @@ using UnityEngine;
 public class OrtakManager : MonoBehaviour
 {
     public static OrtakManager Instance;
-    public GameObject[] Canvas;
-    public static bool oyunBasladimi;
     
+    public GameObject[] Canvas;
+    public bool oyunBasladimi;
+
     private void Awake()
     {
-        Instance = this;
+        Instance =  this;
     }
 
     public void OpenMenu()

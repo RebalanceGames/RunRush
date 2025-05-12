@@ -17,7 +17,7 @@ public class Karakter : MonoBehaviour
     private Vector2 parmakBaslangicPozisyonu;
     private Vector2 parmakGuncelPozisyonu;
     [SerializeField] private float HIZ_CARPANI = 2f;
-    [SerializeField] private float Karakter_Hizi = 1.2f;
+    [SerializeField] private float Karakter_Hizi = 2f;
 
     private NavMeshAgent agent;
 
@@ -28,6 +28,8 @@ public class Karakter : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         _Animator = GetComponent<Animator>();
+        
+        _Animator.SetBool("Saldir", false);
         if (_Slider != null && GecisNoktasi != null)
         {
             float Fark = Vector3.Distance(transform.position, GecisNoktasi.transform.position);
@@ -37,7 +39,7 @@ public class Karakter : MonoBehaviour
 
     private void Update()
     {
-        if (!OrtakManager.oyunBasladimi)
+        if (!OrtakManager.Instance.oyunBasladimi)
         {
             _Animator.SetBool("Saldir", false);
             return;

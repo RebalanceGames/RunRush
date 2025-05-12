@@ -11,6 +11,8 @@ using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
+    
     public static int AnlikKarakterSayisi = 1;
     public List<GameObject> Karakterler;
     public List<GameObject> OlusmaEfektleri;
@@ -39,7 +41,11 @@ public class GameManager : MonoBehaviour
 
     private Scene _Scene;
 
-    [Header("GENEL VERİLER")] public AudioSource[] Sesler;
+    [Header("GENEL VERİLER")] 
+    
+    public AudioSource[] Sesler;
+    
+    public SoundManager _SoundManager;
 
     public Button[] genelButonlar;
     
@@ -79,7 +85,7 @@ public class GameManager : MonoBehaviour
     private bool SavasDurumuCagirildi = false;
     private int SonParaKazanci;
 
-    private void Awake()
+    void Start()
     {
         DynamicGI.UpdateEnvironment();
 
@@ -91,8 +97,13 @@ public class GameManager : MonoBehaviour
 
         AnlikKarakterSayisi = 1;
 
-        Destroy(GameObject.FindWithTag("MenuSes"));
+        //Destroy(GameObject.FindWithTag("MenuSes"));
 
+        _SoundManager = SoundManager.Instance;
+        
+        Sesler[0] = _SoundManager.gameObject.transform.GetChild(0).GetComponent<AudioSource>();
+        Sesler[1] = _SoundManager.gameObject.transform.GetChild(1).GetComponent<AudioSource>();
+        
         if (Sesler.Length > 0 && Sesler[0] != null)
             Sesler[0].volume = _BellekYonetim.VeriOku_f("OyunSes");
 
@@ -106,10 +117,7 @@ public class GameManager : MonoBehaviour
 
         OdulluReklamButton[0].interactable = true;
         OdulluReklamButton[1].interactable = true;
-    }
-
-    void Start()
-    {
+        
         for (int i = 0; i < _BellekYonetim.VeriOku_i("UpgradeCharacter") && i < Karakterler.Count; i++)
         {
             if (Karakterler[i] != null)
@@ -294,9 +302,11 @@ public class GameManager : MonoBehaviour
                     
                     int deger = kazanc * 2;
                     kazandinReklamMiktari.text = deger.ToString();
-
-                    if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
-                        _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
+                    
+                    int levelartirma = _BellekYonetim.VeriOku_i("SonLevel") + 1;
+                    _BellekYonetim.VeriKaydet_int("SonLevel", levelartirma);
+                    
+                    Debug.Log(_BellekYonetim.VeriOku_i("SonLevel"));
 
                     islemPanelleri[2]?.SetActive(true);
                     SavasDurumuCagirildi = true;
@@ -356,8 +366,10 @@ public class GameManager : MonoBehaviour
                     int deger = kazanc * 2;
                     kazandinReklamMiktari.text = deger.ToString();
 
-                    if (_Scene.buildIndex == _BellekYonetim.VeriOku_i("SonLevel"))
-                        _BellekYonetim.VeriKaydet_int("SonLevel", _Scene.buildIndex + 1);
+                    int levelartirma = _BellekYonetim.VeriOku_i("SonLevel") + 1;
+                    _BellekYonetim.VeriKaydet_int("SonLevel", levelartirma);
+                    
+                    Debug.Log(_BellekYonetim.VeriOku_i("SonLevel"));
 
                     islemPanelleri[2]?.SetActive(true);
                     SavasDurumuCagirildi = true;
@@ -539,14 +551,15 @@ public class GameManager : MonoBehaviour
         else if (durum == "tekrar")
         {
             genelButonlar[0].interactable = true;
-            Time.timeScale = 1;
             SceneManager.LoadScene(_Scene.buildIndex);
+            Time.timeScale = 1;
         }
         else if (durum == "anasayfa")
         {
             genelButonlar[0].interactable = true;
-            Time.timeScale = 1;
+            Sesler[0].Stop();
             SceneManager.LoadScene(0);
+            Time.timeScale = 1;
         }
     }
 
@@ -577,7 +590,7 @@ public class GameManager : MonoBehaviour
 
         kaybedilenMinAltin += 6;
 
-        StartCoroutine(LoadAsync(_Scene.buildIndex + 1));
+        SceneManager.LoadScene(0);
     }
 
     public void SesiAyarla()

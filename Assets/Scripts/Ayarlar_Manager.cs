@@ -76,7 +76,7 @@ public class Ayarlar_Manager : MonoBehaviour
     }
     public void GeriDon()
     {
-        ButonSes.Play();
+         ButonSes.Play();
         _BellekYonetim.VeriKaydet_float("MenuSes", MenuSes.value);
         _BellekYonetim.VeriKaydet_float("MenuFx", MenuFx.value);
         _BellekYonetim.VeriKaydet_float("OyunSes", OyunSes.value);

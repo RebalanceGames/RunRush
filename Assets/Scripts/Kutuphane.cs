@@ -275,7 +275,7 @@ namespace Ayberk
         {
             if (!PlayerPrefs.HasKey("SonLevel"))
             {
-                PlayerPrefs.SetInt("SonLevel", 7);
+                PlayerPrefs.SetInt("SonLevel", 1);
                 PlayerPrefs.SetInt("Puan", 100);
                 PlayerPrefs.SetInt("Elmas", 0);
 

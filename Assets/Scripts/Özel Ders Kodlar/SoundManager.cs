@@ -5,19 +5,37 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    AudioSource _AudioSource;
-    public AudioClip[] sesler;
-    AudioSource buttonSource;
+    public static SoundManager Instance;
+    
+    private AudioSource _AudioSourceMenu;
+    private AudioSource _AudioSourceGame;
+    [SerializeField] AudioSource buttonSource;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     private void Start()
     {
-        _AudioSource = GetComponent<AudioSource>();
-        buttonSource = GetComponentInChildren<AudioSource>();
+        var gameMusic = transform.GetChild(0).GetComponent<AudioSource>();
+        _AudioSourceMenu = GetComponent<AudioSource>();
+        if(gameMusic != null)
+            _AudioSourceGame = gameMusic.GetComponent<AudioSource>();
     }
 
     public void ChangeSound(int index)
     {
-        _AudioSource.clip = sesler[index];
-        _AudioSource.Play();
+        if (index == 0)
+        {
+            _AudioSourceGame.Stop();
+            _AudioSourceMenu.Play();
+        }
+        else if (index == 1)
+        {
+            _AudioSourceMenu.Stop();
+            _AudioSourceGame.Play();
+        }
     }
 
     public void ButtonSound()
