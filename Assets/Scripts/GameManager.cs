@@ -283,7 +283,8 @@ public class GameManager : MonoBehaviour
                     int deger = kazanc * 2;
                     kaybettinReklamMiktari.text = deger.ToString();
 
-                    islemPanelleri[3]?.SetActive(true);
+                    //islemPanelleri[3]?.SetActive(true);
+                    StartCoroutine(OpenAsyncPanel(islemPanelleri[3]));
                     SavasDurumuCagirildi = true;
                 }
                 else if (KacBossOlsun <= 0 && AnlikKarakterSayisi > 0)
@@ -308,7 +309,8 @@ public class GameManager : MonoBehaviour
                     
                     Debug.Log(_BellekYonetim.VeriOku_i("SonLevel"));
 
-                    islemPanelleri[2]?.SetActive(true);
+                    //islemPanelleri[2]?.SetActive(true);
+                    StartCoroutine(OpenAsyncPanel(islemPanelleri[2]));
                     SavasDurumuCagirildi = true;
                 }
             }
@@ -345,7 +347,8 @@ public class GameManager : MonoBehaviour
                     int deger = kazanc * 2;
                     kaybettinReklamMiktari.text = deger.ToString();
 
-                    islemPanelleri[3]?.SetActive(true);
+                    //islemPanelleri[3]?.SetActive(true);
+                    StartCoroutine(OpenAsyncPanel(islemPanelleri[3]));
                     SavasDurumuCagirildi = true;
                 }
                 else if (KacDusmanOlsun <= 0 && AnlikKarakterSayisi > 0)
@@ -371,7 +374,8 @@ public class GameManager : MonoBehaviour
                     
                     Debug.Log(_BellekYonetim.VeriOku_i("SonLevel"));
 
-                    islemPanelleri[2]?.SetActive(true);
+                    //islemPanelleri[2]?.SetActive(true);
+                    StartCoroutine(OpenAsyncPanel(islemPanelleri[2]));
                     SavasDurumuCagirildi = true;
                 }
             }
@@ -643,5 +647,11 @@ public class GameManager : MonoBehaviour
             kazanilanAltin.text = (SonParaKazanci * 2).ToString();
             kazanilanAltin.text = SonParaKazanci.ToString();
         });
+    }
+
+    IEnumerator OpenAsyncPanel(GameObject panel)
+    {
+        yield return new WaitForSeconds(.5f);
+        panel?.SetActive(true);
     }
 }
